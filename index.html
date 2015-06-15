@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Digital Humanities on a Shoestring</title>
+
+		<meta name="description" content="A presentation in New Haven, CT, to the National Coalition of Independent Scholars, June 21 2015">
+		<meta name="author" content="Trip Kirkpatrick">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style type="text/css">
+			h1.intertitle { font-size:400%; color:#eb3; }
+		</style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Digital Humanities on a Shoestring</h1>
+					<p>
+						<small>Created by Trip Kirkpatrick / <a href="http://twitter.com/triplingual">@triplingual</a></small>
+					</p>
+					<aside class="notes">
+						<p>
+							I know that there's a wide range of disciplines, ages, origins, and comfort (or discomfort) with technology in the room.
+						</p>
+						<p>
+							Can I get a show of hands of who's ever done anything that they would call Digital Humanities? I don't care a fig whether it's something that's been stamped DH by anyone else, I'm interested in whether <strong>you</strong> think you've done something in Digital Humanities.
+						</p>
+						<p>
+							With that, I can calibrate a bit how I talk about the things I'm going to say. It won't change the things, but I might speed some parts up.
+						</p>
+					</aside>
+				</section>
+
+				<section>
+					<h1 class="intertitle">Some Tools</h1>
+					<aside class="notes">
+						<p>
+							For a few moments, I'm going to run through some tools that don't cost any money. You'll note my careful evasion of the word 'free' there, which I'll come back to in the second half.
+						</p>
+						<p>
+							I'm intentionally just running names here. These are some heavily used tools, so if you note the names and search for them in your preferred search engine, you'll find them.
+						</p>
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>Texts</h2>
+					</section>
+					<section>
+						<h2>Voyant</h2>
+					</section>
+					<section>
+						<h2>MALLET</h2>
+					</section>
+					<section>
+						<h2>AntConc</h2>
+					</section>
+					<section>
+						<h2>R</h2>
+						<aside class="notes">
+							<p>
+								R is often called the Swiss Army knife of data processing, and it's quite a tool. It's not easy to learn, but its rewards are significant.
+							</p>
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Spaces</h2>
+						<p style="font-style:italic;">
+							Note: Spatial Humanities is not just GIS
+						</p>
+					</section>
+					<section>
+						<h2>Google Maps</h2>
+						<aside class="notes">
+							Great for sketching out ideas, rapid prototyping.
+						</aside>
+					</section>
+					<section>
+						<h2>QGIS</h2>
+						<aside class="notes">
+							<p>http://maps.cga.harvard.edu/qgis/</p>
+							<p>
+								So while spatial humanities is not <strong>just</strong> GIS, it can be GIS, and this is an open source option for working with GIS. Like any open source tool, it can be frustrating. The community around it can also be frustrating.
+							</p>
+						</aside>
+					</section>
+					<section>
+						<h2>R</h2>
+						<p>
+							Remember R?
+						</p>
+						<aside class="notes">
+							<p>http://spatial.ly/r/</p>
+						</aside>
+					</section>
+					<section>
+						<h2>Indigenous Spaces</h2>
+						<p>
+							A plea: If your research area could include indigenous representations of space, DH could use work in this area. We need to remember that Cartesian space is a recent invention.
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Networks</h2>
+					</section>
+					<section>
+						<h2>Gephi</h2>
+					</section>
+					<section>
+						<h2>Cytoscape</h2>
+					</section>
+					<section>
+						<h2>Palladio</h2>
+						<aside class="notes">
+							<p>
+								Often described as a data visualization platform, one approach this tool from Stanford can enable is network representation.
+							</p>
+						</aside>
+					</section>
+					<section>
+						<h2>R</h2>
+						<p>
+							Hello again!
+						</p>
+						<aside class="notes">
+							Remember R?
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Images</h2>
+					</section>
+					<section>
+						<h2>Image Plot</h2>
+					</section>
+					<section>
+						<h2>Python</h2>
+					</section>
+					<section>
+						<h2>R</h2>
+						<p>
+							O HAI
+						</p>
+						<aside class="notes">
+							<p>
+								http://www.bioconductor.org/packages/release/bioc/html/EBImage.html
+							</p>
+							<p>
+								Honestly, I have no experience with this. But R seems to be able to do anything else, so I took a look and indeed it seems that you can do some image analysis using it. As with some other DH tools, its origins are in the sciences. The most interesting package seems to be EBImage, which comes from researchers needing to work with images generated by microscopy.
+							</p>
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<h1 class="intertitle">People</h1>
+					<aside class="notes">
+						<p>
+							Like soylent green, DH is people. My apologies to those for whom that's a spoiler either for the movie or for DH.
+						</p>
+						<p>
+							And yet. Machines don't do anything scholarly significant by themselves yet. To engage in DH, there has to be another person in the room. To my mind, to engage in meaningful DH you have to address the lives of real humans. To expand human knowledge and to improve humanity, you'll get farther working with people than with computers.
+						</p>
+						<p>
+							This is not to discount the tools I've mentioned before. But it does mean that the tools were written by people, are supported by people, have been used by people, are interpreted by people, and &#8212; most to the point &#8212; answer human questions that humans need to push forward using their own brains.
+						</p>
+						<p>
+							It also means that tools, their intentions, their communities, and their biases reflect, reproduce, and reinforce pre-existing power structures and relations.
+						</p>
+					</aside>
+				</section>
+<!--
+				<section>
+					<h2>DDIY</h2>
+					<h3>(Don't Do It Yourself)</h3>
+					<aside class="notes">
+					</aside>
+				</section>
+-->
+				<section>
+					<h2>Partnering</h2>
+					<h3>Or, Independent Scholars Can't Be</h3>
+					<aside class="notes">
+						<p>
+							I've listed some approaches and some tools that enable those approaches, but you'll get farther faster if you have a team to work with.
+						</p>
+						<p>
+							One team I'm part of has a photography historian and theorist as a PI, a young scholar with a background in public scholarship as a project co-coordinator, a statistician as the other project co-coordinator, a geographer for the maps, and a Scandinavianist as the implementation lead, to say nothing of the librarians, government staff, and ad hoc consultations that have boosted the project.
+						</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Keeping Up</h2>
+					<h3>Or, Forming Virtual Community</h3>
+					<p>
+						Much of the real information on how to use these tools is kept in blogs, discussion forums, and Twitter.
+					</p>
+					<aside class="notes">
+						[Something about how one of the reproduced relationships is of inside and outside. DH has a rep among many of being open and friendly, but sooner or later you have to prove yourself. Start helping small and asking small (in that way, DH may be a little different) and you'll soon enough be able to give more and get more. It's a commitment.]
+					</aside>
+				</section>
+
+				<section>
+					<h2>Learning</h2>
+					<h3>Or, You Get What You Give</h3>
+					<aside class="notes">
+						
+					</aside>
+				</section>
+<!--
+				<section>
+					<h2>Becoming a Digital Humanist</h2>
+					<p>
+						<em>provisional, tentative, situated</em>
+					</p>
+					<p>
+						If you can have a generative professional conversation with a computational scholar about a project of mutual material interest, Congratulations! you're a Digital Humanist.
+					</p>
+					<aside class="notes">
+						<p>
+							Take, for instance, the common conflation in DH of 'network visualization' or 'network representation' with 'network analysis'. No matter what your interpretation or understanding of these terms, there's no reason not to work with assembling and studying network data or networks of data or data about networks. By the same token, it's something different entirely to be able to plan something with a computational sociologist with published work on Social Network Analysis. In the former case, you are becoming a Digital Humanist, and in the latter you are in a position to change DH. The former is not lesser than the latter, but is is definitely different.
+						</p>
+					</aside>
+				</section>
+-->
+				<section style="text-align: left;">
+					<h2>is.gd/dhshoestring</h2>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+		<!-- Cargamos la barra superior con el título y el logotipo -->
+    <script src="js/topbar.js"></script>
+
+	</body>
+</html>
