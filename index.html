@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Digital Humanities on a Shoestring</title>
+		<title>Digital Humanities on a Shoestring / NCIS 2015</title>
 
 		<meta name="description" content="A presentation in New Haven, CT, to the National Coalition of Independent Scholars, June 21 2015">
 		<meta name="author" content="Trip Kirkpatrick">
@@ -43,19 +43,19 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>Digital Humanities on a Shoestring</h1>
+					<h2>Digital Humanities on a Shoestring</h2>
 					<p>
 						<small>Created by Trip Kirkpatrick / <a href="http://twitter.com/triplingual">@triplingual</a></small>
 					</p>
+					<p>
+						<small>Navigate using your keyboard arrow keys, with the triangles in the lower right of your screen showing direction options. Use <code>ESC</code> to get a presentation map.</small>
+					</p>
+					<p>
+						<small>My notes are in the markup, but there's no guarantee that I said what I wrote.</small>
+					</p>
 					<aside class="notes">
 						<p>
-							I know that there's a wide range of disciplines, ages, origins, and comfort (or discomfort) with technology in the room.
-						</p>
-						<p>
-							Can I get a show of hands of who's ever done anything that they would call Digital Humanities? I don't care a fig whether it's something that's been stamped DH by anyone else, I'm interested in whether <strong>you</strong> think you've done something in Digital Humanities.
-						</p>
-						<p>
-							With that, I can calibrate a bit how I talk about the things I'm going to say. It won't change the things, but I might speed some parts up.
+							[show of hands of who's ever done anything that they would call Digital Humanities for calibration]
 						</p>
 					</aside>
 				</section>
@@ -67,7 +67,7 @@
 							For a few moments, I'm going to run through some tools that don't cost any money. You'll note my careful evasion of the word 'free' there, which I'll come back to in the second half.
 						</p>
 						<p>
-							I'm intentionally just running names here. These are some heavily used tools, so if you note the names and search for them in your preferred search engine, you'll find them.
+							These are some heavily used tools, so if you note the names and search for them in your preferred search engine, you'll find them.
 						</p>
 					</aside>
 				</section>
@@ -78,12 +78,25 @@
 					</section>
 					<section>
 						<h2>Voyant</h2>
+						<aside class="notes">
+							<p>
+								I like Voyant as an introductory tool because it foregrounds very quickly the need to know some rudimentary statistics and even corpus linguistics to get very far.
+							</p>
+						</aside>
 					</section>
 					<section>
 						<h2>MALLET</h2>
+						<aside class="notes">
+							Came out of UMASS Amherst, grad student (David Mimno), now hosted on GitHub
+						</aside>
 					</section>
 					<section>
 						<h2>AntConc</h2>
+						<aside class="notes">
+							<p>
+								Developed and supported by a corpus linguist. Word counts, collocates.
+							</p>
+						</aside>
 					</section>
 					<section>
 						<h2>R</h2>
@@ -105,21 +118,26 @@
 					<section>
 						<h2>Google Maps</h2>
 						<aside class="notes">
-							Great for sketching out ideas, rapid prototyping.
+							Great for sketching out ideas, rapid prototyping. But consider the advantages and disadvantages to giving Google your intellectual property.
 						</aside>
 					</section>
 					<section>
 						<h2>QGIS</h2>
 						<aside class="notes">
-							<p>http://maps.cga.harvard.edu/qgis/</p>
 							<p>
-								So while spatial humanities is not <strong>just</strong> GIS, it can be GIS, and this is an open source option for working with GIS. Like any open source tool, it can be frustrating. The community around it can also be frustrating.
+								Recent tutorial (as of June 2015, at least) from the Baruch Geoportal. http://www.baruch.cuny.edu/geoportal/practicum/
+							</p>
+							<p>
+								So while spatial humanities is not just GIS, it can be GIS, and this is an open source option for working with GIS. Like any open source tool, it can be frustrating. The community around it can also be frustrating.
 							</p>
 						</aside>
 					</section>
 					<section>
 						<h2>D3</h2>
 						<aside class="notes">
+							<p>
+								http://d3js.org
+							</p>
 							<p>
 								D3 is based in JavaScript, and can do very simple things as well as it does very complex things. Which makes it good for making maps that use non-GIS data as well as for making maps that do.
 							</p>
@@ -131,14 +149,17 @@
 							Remember R?
 						</p>
 						<aside class="notes">
-							<p>http://spatial.ly/r/</p>
+							<p>A host of links to follow: http://spatial.ly/r/</p>
 						</aside>
 					</section>
 					<section>
 						<h2>Indigenous Spaces</h2>
 						<aside class="notes">
 							<p>
-								I'm cheating here, since this isn't a tool, but rather a special mention and request: If your research area could include indigenous representations of space, DH could use work in this area. We need to remember that Cartesian space is a recent invention.
+								I'm cheating here, since this isn't a tool, but rather a special mention and request: If your research area could include indigenous representations of space, DH could use work in this area. Cartesian space is a recent invention.
+							</p>
+							<p>
+								It's also a good moment to add to my statement about GIS that not all digital mapping is interactive or dynamic. Spatial humanistic inquiry can result in rich, descriptive, provocative &#8212; and static &#8212; illustrative maps.
 							</p>
 						</aside>
 					</section>
@@ -153,6 +174,11 @@
 					</section>
 					<section>
 						<h2>Cytoscape</h2>
+						<aside class="notes">
+							<p>
+								Gephi and Cytoscape do very similar things. Gephi is more part of the lingua franca of DH, but that doesn't make it better.
+							</p>
+						</aside>
 					</section>
 					<section>
 						<h2>Palladio</h2>
@@ -190,7 +216,7 @@
 						</p>
 						<aside class="notes">
 							<p>
-								http://www.bioconductor.org/packages/release/bioc/html/EBImage.html
+								e.g. http://www.bioconductor.org/packages/release/bioc/html/EBImage.html
 							</p>
 							<p>
 								Honestly, I have no experience with this. But R seems to be able to do anything else, so I took a look and indeed it seems that you can do some image analysis using it. As with some other DH tools, its origins are in the sciences. The most interesting package seems to be EBImage, which comes from researchers needing to work with images generated by microscopy.
@@ -209,7 +235,7 @@
 							And yet. Machines don't do anything scholarly significant by themselves yet. To engage in DH, there has to be another person in the room. To my mind, to engage in meaningful DH you have to address the lives of real humans. To expand human knowledge and to improve humanity, you'll get farther working with people than with computers.
 						</p>
 						<p>
-							This is not to discount the tools I've mentioned before. But it does mean that the tools were written by people, are supported by people, have been used by people, are interpreted by people, and &#8212; most to the point &#8212; answer human questions that humans need to push forward using their own brains.
+							This is not to discount the tools I've mentioned before. But it does mean that the tools aren't independent. Though your choice of tools affects the questions you can investigate, the tools are there to do your bidding. They were written by people, are supported by people, have been used by people, are interpreted by people, and &#8212; most to the point &#8212; answer human questions that humans need to push forward using their own brains.
 						</p>
 						<p>
 							It also means that tools, their intentions, their communities, and their biases reflect, reproduce, and reinforce pre-existing power structures and relations.
@@ -218,25 +244,12 @@
 				</section>
 
 				<section>
-					<h2>Partnering</h2>
-					<h3>Or, Independent Scholars Can't Be</h3>
-					<aside class="notes">
-						<p>
-							I've listed some approaches and some tools that enable those approaches, but you'll get farther faster if you have a team to work with.
-						</p>
-						<p>
-							One team I'm part of has a photography historian and theorist as a PI, an American Studies scholar with a background in public scholarship as a project co-coordinator, a statistician as the other project co-coordinator, a geographer for the maps, and a Scandinavianist as the implementation lead, to say nothing of the librarians, government staff, and ad hoc consultations that have boosted the project.
-						</p>
-					</aside>
-				</section>
-
-				<section>
 					<h2>Keeping Up</h2>
 					<h3>Or, Forming Virtual Community</h3>
-					<p>
-						Much of the real information on how to use these tools is kept in blogs, discussion forums, and Twitter.
-					</p>
 					<aside class="notes">
+						<p>
+							Much of the real information on how to use these tools is packed away in people's heads and shared in blogs, discussion forums, and Twitter. Keeping up is labor, and part of why I don't call these tools 'free'.
+						</p>
 						<p>
 							Reading is still free, as is Twitter, the most significant social media vector for Digital Humanities.
 						</p>
@@ -246,10 +259,40 @@
 				<section>
 					<h2>Learning How to DH</h2>
 					<h3>Or, You Get What You Give</h3>
+					<aside class="notes">
+						<p>
+							This is a little facile, but no less true. At the beginning, I mentioned that the tools I would enumerate didn't cost any money. But they're not free, at least in the economics sense of the word, because they take an investment of time, effort, and human interaction. The more you work on learning a DH approach in a network of others working with the same or a similar approach, the more you'll be able to contribute to others' learning and therefore the better a position you'll be in to join or start a project team.
+						</p>
+						<p>
+							This can be particularly important when the power structures that a tool and its community are reproducing are biased against you.
+						</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Partnering</h2>
+					<h3>Or, Independent Scholars Can't Be</h3>
+					<aside class="notes">
+						<p>
+							I've listed some approaches and some tools that enable those approaches, and I've talked about making connections and building your capabilities. Eventually, this leads to partnering on a project. I'm toying with the idea that you know you have become a digital humanist when you can start or work on a project with people from a computational or quantitative discipline.
+						</p>
+						<p>
+							I'm part of the Photogrammar project, which you may have heard about yesterday from Lauren Tilton. On the project. there's a statistician as a project co-coordinator, and a geographer specializing in GIS for the maps, in addition to humanists and hybrid humanist-technologists. Part of the reason I have such respect for the team and the project is that the conversations all flow seamlessly. Everyone's learning, everyone's contributing.
+						</p>
+						<p>
+							You also may have heard yesterday from Holly Rushmeier at Yale on using digital tools for visual analysis. The project she spoke of bridges members of Computer Science, English, and History, as well as staff with a range of experise.
+						</p>
+						<p>
+							It's these kinds of robust, diverse teams that produce, use, and interpret good tools for Digital Humanities, and that I hope you're a little closer to forming or joining after today.
+						</p>
+					</aside>
 				</section>
 
 				<section style="text-align: left;">
 					<p style="font-size:2em;"><a href="http://is.gd/dhshoestring_ncis2015">is.gd/dhshoestring_ncis2015</a></p>
+					<p>
+						<small>This presentation made with <a href="https://github.com/hakimel/reveal.js/">reveal.js</a></small>
+					</p>
 				</section>
 
 			</div>
